@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package pogoprotos.networking.requests.messages;
+
+message CheckChallengeMessage {
+        bool debug_request = 1;
+}
